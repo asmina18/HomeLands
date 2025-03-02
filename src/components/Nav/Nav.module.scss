@@ -1,0 +1,120 @@
+// @use '../../styles/variables.scss' as *;
+
+// .navbar {
+//   background-color: $color-black;
+//   padding: 1rem;
+//   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+//   position: relative;
+// }
+
+// /* Logo - Centreret korrekt */
+// .logoContainer {
+//   position: absolute;
+//   left: 50%;
+//   top: 50%;
+//   transform: translate(-50%, 20px); // 📌 Justerer ned, så det overlapper navbaren pænt
+// }
+
+// .logo {
+//   background-color: $color-brown;
+//   padding: 14px 25px;
+//   font-size: 2.2rem;
+//   font-weight: bold;
+//   text-decoration: none;
+//   border-radius: 10px;
+//   font-family: $font-logo-nav;
+//   color: white !important;
+//   display: inline-block;
+// }
+
+// /* Navigation */
+// .navMenu {
+//   width: 100%;
+// }
+
+// .navList {
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-end; // 📌 Sørger for at de ligger til højre
+//   gap: 20px;
+// }
+
+// .navItem {
+//   list-style: none;
+// }
+
+// .navLink {
+//   font-size: 1.8rem;
+//   text-decoration: none;
+//   font-family: $font-logo-nav;
+//   transition: color 0.3s;
+//   color: white !important;
+//   padding: 15px 20px;
+//   display: inline-block;
+
+//   &:hover {
+//     color: $color-brown;
+//   }
+// }
+
+// /* Aktivt link */
+// .active {
+//   color: $color-brown !important;
+//   font-weight: bold;
+// }
+
+// /* Søgefelt */
+// .searchContainer {
+//   display: flex;
+//   align-items: center;
+//   margin-left: 20px;
+// }
+
+// .searchInput {
+//   width: 200px;
+//   padding: 10px;
+//   border: 1px solid #ccc;
+//   background-color: #fff;
+//   color: black;
+//   border-radius: 5px 0 0 5px;
+//   outline: none;
+//   font-size: 16px;
+//   font-family: $font-logo-nav;
+// }
+
+// .searchButton {
+//   background-color: #ccc;
+//   border: 1px solid #ccc;
+//   border-radius: 0 5px 5px 0;
+//   padding: 10px 15px;
+//   cursor: pointer;
+//   transition: background-color 0.3s ease;
+
+//   &:hover {
+//     background-color: #aaa;
+//   }
+
+//   i {
+//     color: black;
+//   }
+// }
+
+// /* Mobilvenlig navigation */
+// @media (max-width: 992px) {
+//   .navList {
+//     flex-direction: column;
+//     text-align: center;
+//     width: 100%;
+//   }
+
+//   .searchContainer {
+//     margin-top: 10px;
+//     width: 100%;
+//     justify-content: center;
+//   }
+
+//   .navLink {
+//     font-size: 1.5rem;
+//     padding: 12px;
+//   }
+// }

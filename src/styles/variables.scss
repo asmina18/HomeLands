@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trebuchet+MS&display=swap');
+
+// Font-variabler
+$font-logo-nav: 'Odibee Sans', sans-serif;  // Til logo og navigation
+$font-heading: 'Trebuchet MS', sans-serif;    // Til overskrifter
+$font-body: 'Trebuchet MS', sans-serif;       // Til brødtekst
+
+// Farve-variabler
+$color-brown: #AF7627;
+$color-pink: #FED9C9;
+$color-black: #000000;
+$color-white:#FFFFFF;
+
+body {
+  font-family: $font-body;
+  color: $color-black;
+  background-color: $color-white;
+}
+
+h1{
+  font-family: $font-logo-nav;
+  color:$color-white;
+}
+h2 {
+  font-family: $font-logo-nav;
+  color:$color-black;
+}
+ h3, h4, h5, h6 {
+  font-family: $font-heading;
+  color: $color-black;
+}
+
+.navbar {
+  font-family: $font-logo-nav;
+  color: $color-white;
+}

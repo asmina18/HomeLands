@@ -1,0 +1,25 @@
+.detailContainer {
+    padding: 20px;
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .propertyTable {
+        margin-top: 20px;
+        font-size: 0.95rem;
+
+        td {
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 0.85rem;
+        }
+    }
+}

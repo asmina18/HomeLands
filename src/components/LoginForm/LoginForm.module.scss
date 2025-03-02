@@ -1,0 +1,28 @@
+@use '../../styles/variables.scss' as *;
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.loginForm {
+    background-color:$color-white;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    .form-control {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .btn-lg {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+}

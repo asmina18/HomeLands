@@ -1,0 +1,50 @@
+// /* MedarbejderKort.module.scss */
+
+// .medarbejderCard {
+//   position: relative;
+//   width: 18rem; /* Sætter kortets bredde til 18rem */
+//   height: 10%; /* Sørger for, at højden tilpasses automatisk */
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+//   cursor: pointer;
+// }
+
+// .card-img-top {
+//   height: 200px; /* Juster billedhøjden */
+//   object-fit: cover; /* Sørger for, at billedet dækker kortet uden at blive forvrænget */
+// }
+
+// .card-body {
+//   padding: 1rem;
+// }
+
+// .card-body .card-title {
+//   font-size: 1rem;
+// }
+
+// .card-body .card-text {
+//   font-size: 0.9rem;
+// }
+
+// .contactInfo {
+//   position: absolute;
+//   top: 10px; /* Kontaktinfo vises øverst */
+//   left: 50%;
+//   transform: translateX(-50%);
+//   display: flex;
+//   flex-direction: column;
+//   gap: 5px;
+//   font-size: 0.85rem;
+//   color: #333;
+//   visibility: hidden; /* Skjult som standard */
+//   opacity: 0; /* Skjult som standard */
+//   transition: opacity 0.3s ease; /* Lægger en overgangseffekt på visning af kontaktinfo */
+// }
+
+// .card-body:hover .contactInfo {
+//   visibility: visible; /* Gør kontaktinfo synlig ved hover */
+//   opacity: 1; /* Gør kontaktinfo synlig */
+// }
+
+// .card-body:hover {
+//   transform: scale(1.05); /* Let zoom-effekt på kortet ved hover */
+// }

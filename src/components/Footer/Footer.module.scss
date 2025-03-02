@@ -1,0 +1,108 @@
+@use '../../styles/variables.scss' as *;
+
+.footer {
+    background-color: $color-black;
+    color: $color-white;
+    font-family: $font-logo-nav;
+    padding: 1.5rem 0;
+    position: relative;
+
+    /* Gul linje i bunden */
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right, #d3e67a, #f0f0f0);
+    }
+}
+
+/* Layout - 4 sektioner */
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* "HomeLands" Tekst */
+.footerBrand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Adresse & Kontakt */
+.footerAddress,
+.footerContact {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Links */
+.footerContact a {
+    color: $color-white;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footerSocial {
+    display: flex;
+    gap: 10px;
+
+    .socialIcon {
+        font-size: 1.5rem;
+        background: white;
+        border-radius: 5px;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.3s ease-in-out;
+
+        svg {
+            color: $color-black;
+        }
+
+        &:hover {
+            background: $color-brown;
+        }
+    }
+}
+
+/* Mobilvenlig styling */
+@media only screen and (max-width: 768px) {
+    .footer {
+        background-color: $color-brown;
+
+    }
+
+    .footerContainer {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+
+    }
+
+    .footerBrand {
+        font-size: 2rem;
+    }
+
+    .footerSocial {
+        justify-content: center;
+    }
+
+    .footerAddress,
+    .footerContact {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+}
